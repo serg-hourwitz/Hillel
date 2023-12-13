@@ -1,0 +1,352 @@
+.ui_ux_designer {
+    padding-top: 150px;
+    display: flex;
+    background: url(../img/courses/female-asian.png) 134% 100% no-repeat;
+}
+
+.ui_ux_designer-box {
+    width: 648px;
+    background: url(../img/courses/ellipse-left.png) 100% 100% no-repeat;
+}
+
+.course__duration {
+    width: 84px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #19191C;
+    border-bottom: 4px solid #504DEE;
+    padding-bottom: 5px;
+    margin-bottom: 32px;
+}
+
+.course__profession {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191C;
+    margin: 0;
+}
+
+.course__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: #19191C;
+    padding-bottom: 48px;
+}
+
+.course__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191C;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.button-start {
+    background: #504DEE;
+    border: none;
+    padding: 16px 37px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBFBFC;
+    margin-bottom: 110px;
+}
+
+.course__sale {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: #19191C;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.course__time {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #19191C;
+    padding-bottom: 195px;
+}
+
+.course__list {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.course__list-item {
+    position: absolute;
+    border: 2px solid #19191C;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #19191C;
+    padding: 16px 36px;
+}
+
+.invision {
+    top: 100px;
+    right: 0;
+}
+
+.protopie {
+    top: 80px;
+    right: 260px;
+}
+
+.miro {
+    top: 120px;
+    right: 500px;
+}
+
+.photoshop {
+    top: 310px;
+    left: 150px;
+}
+
+.figma {
+    bottom: 400px;
+    left: -20px;
+}
+
+.illustrator {
+    top: 620px;
+    right: 620px;
+}
+
+.about__profession-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 168px;
+}
+
+.about__profession {
+    padding-top: 168px;
+}
+
+.about__profession-header {
+    width: 588px;
+}
+
+@media screen and (max-width: 390px) {
+    .about__profession-header {
+        width: inherit;
+        }
+}
+
+.about__profession-title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: #19191C;
+    margin: 0;
+    padding-bottom: 28px;
+}
+
+.about__profession-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6D6D77;
+}
+
+.course__statistics {
+    display: flex;
+    gap: 103px;
+}
+
+@media screen and (max-width: 390px) {
+    .course__statistics {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.course__statistics-item-amount {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: #19191C;
+    margin: 0;
+}
+
+.course__statistics-item-unit {
+    width: 254px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191C;
+    margin: 0;
+    padding-bottom: 21px;
+    border-bottom: 4px solid #19191C;
+    margin-bottom: 18px;
+}
+
+.course__statistics-item-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6D6D77;
+    margin: 0;
+}
+
+.course__results {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 390px) {
+    .course__results {
+        flex-direction: column;
+    }
+}
+
+.course__results-item {
+    padding: 68px 48px;
+}
+
+.course__results-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #19191C;
+    margin: 0;
+    padding-bottom: 28px;
+    border-bottom: 4px solid #19191C;
+    margin-bottom: 12px;
+}
+
+.course__results-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191C;
+    margin: 0;
+}
+
+.portfolio {
+    background: #DEEFE4;
+}
+
+.internship {
+    background: #F3F3D7;
+}
+
+.certificate {
+    background: #EFDEEE;
+}
+
+.price__offer {
+    padding: 171px 0 168px;
+}
+
+.price__offer-title {
+    width: 560px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: #19191C;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.price__offer-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 390px) {
+    .price__offer-wrapper {
+        flex-direction: column;
+    }
+}
+
+.price__offer-item {
+    padding: 48px 37px 51px 68px;
+    background: #DEEFE4;
+    flex-basis: calc((100% - 40px)/3);
+}
+
+.price__offer-item:hover  {
+    background: #504DEE;
+    transition: .5s;
+}
+
+.price__offer-item:hover .price__offer-item-title {
+    color: #FBFBFC;
+}
+
+.price__offer-item:hover .price__offer-item-list li{
+    color: #FBFBFC;
+}
+
+.price__offer-item:hover .price__offer-item-total {
+    color: #FBFBFC;
+}
+
+.price__offer-item:hover .price__offer-item-part {
+    color: #FBFBFC;
+}
+
+.price__offer-item:hover .price__offer-choose-button {
+    color: #504DEE;
+    background: #FBFBFC;
+}
+
+.price__offer-item-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #19191C;
+    padding-bottom: 45px;
+}
+
+.price__offer-item-list {
+    list-style: square;
+    padding-left: 23px;
+}
+
+.price__offer-item-list li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191C;
+    padding-bottom: 22px;
+}
+
+.price__offer-item-total {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #6D6D77;
+    margin: 0;
+}
+
+.price__offer-item-part {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: #19191C;
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.price__offer-choose-button {
+    background: #19191C;
+    border: none;
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FBFBFC;
+}
